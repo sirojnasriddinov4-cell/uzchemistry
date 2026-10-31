@@ -1,0 +1,2 @@
+# uzchemistry
+Uzbek kimyo loyiha
