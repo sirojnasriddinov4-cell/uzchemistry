@@ -1,10 +1,9 @@
 {
-  "name": "uzchemistry",
+  "name": "@uzchem/shared",
+  "version": "0.1.0",
   "private": true,
-  "workspaces": ["packages/*", "apps/*"],
-  "scripts": {
-    "dev:api": "npm run dev -w @uzchemistry/api",
-    "dev:web": "npm run dev -w @uzchemistry/web",
-    "test": "npm test -w @uzchemistry/api"
-  }
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "dependencies": { "zod": "^3.23.8" }
 }
